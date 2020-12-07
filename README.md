@@ -5,7 +5,7 @@
 
 The solution consists of three parts:
 1) Get each datapoint's most likely domain using ComplementNB, on viewed items only.
-2) Get each datapoint's most likely domain using bag of wards of queries, also using ComplementNB.
+2) Get each datapoint's most likely domain using bag of words of queries, also using ComplementNB.
 3) Create a scoring dataset and classify items with lightgbm. To do this, iterate over datapoints and select most relevant items for each datapoint. Most relevant items are:
 viewed items, most bought items from most likely domain (defined by the two previous steps). For each candidate solution, extract relevant information, like:
  - how many times item was viewed (int)
