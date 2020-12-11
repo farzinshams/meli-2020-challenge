@@ -1,5 +1,5 @@
 # meli-2020-challenge
-5th place solution to the Mercado Livre product recommendation challenge
+5th place solution to the Mercado Livre product recommendation challenge (CODE WAS UPLOADED AS-IS AS PER COMPETITION RULES)
 
 
 
